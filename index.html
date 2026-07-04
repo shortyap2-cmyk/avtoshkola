@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>AutoConsulting</title>
+<link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./mobile.css">
+  <link rel="stylesheet" href="./hero-live.css">
+  <link rel="stylesheet" href="./section-decor.css">
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2028852541357980');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2028852541357980&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#fff}
+    a{color:inherit}
+    .ac-track{background-image:repeating-linear-gradient(125deg,rgba(255,255,255,.06) 0 2px,transparent 2px 26px)}
+    @media(min-width:900px){.ac-nav{display:flex !important}}  </style>
+</head>
+<body>
+<div style="font-family:var(--font-display);color:var(--black);background:#fff;min-height:100vh">
+  <header style="position:sticky;top:0;z-index:60;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)">
+    <div style="max-width:1200px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:24px">
+      <a href="#top" style="display:inline-flex;align-items:center;gap:10px;text-decoration:none">
+        <span style="display:flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:var(--brand-purple)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" width="22" height="22" style="display:block"><path d="M5 17h14M5 17a2 2 0 1 1-4 0M23 17a2 2 0 1 1-4 0M3 17v-4l2.5-5A2 2 0 0 1 7.3 7h9.4a2 2 0 0 1 1.8 1l2.5 5v4M3 13h18"/></svg>
+        </span>
+        <span style="font:700 20px var(--font-display);letter-spacing:-.01em;color:var(--black)">AutoConsulting</span>
+      </a>
+      <nav style="display:none;gap:26px;margin-left:8px" class="ac-nav">
+        <a href="#services" style="font:500 15px var(--font-display);color:var(--gray-500);text-decoration:none">Послуги</a>
+        <a href="#situations" style="font:500 15px var(--font-display);color:var(--gray-500);text-decoration:none">Ситуації</a>
+        <a href="#how" style="font:500 15px var(--font-display);color:var(--gray-500);text-decoration:none">Як працюємо</a>
+        <a href="#categories" style="font:500 15px var(--font-display);color:var(--gray-500);text-decoration:none">Категорії</a>
+        <a href="#reviews" style="font:500 15px var(--font-display);color:var(--gray-500);text-decoration:none">Відгуки</a>
+        <a href="#faq" style="font:500 15px var(--font-display);color:var(--gray-500);text-decoration:none">FAQ</a>
+      </nav>
+      <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="margin-left:auto;display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--brand-orange);color:#fff;font:600 15px var(--font-display);border-radius:8px;text-decoration:none;box-shadow:0 6px 16px rgba(255,158,12,.26)" >
+        <svg class="tg-logo" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" style="display:block"><path d="M21.94 4.33 18.7 19.59c-.24 1.08-.88 1.35-1.78.84l-4.94-3.64-2.38 2.29c-.26.26-.49.49-1 .49l.35-5.03 9.16-8.28c.4-.35-.09-.55-.62-.2L6.16 13.2 1.28 11.67c-1.06-.33-1.08-1.06.22-1.57L20.56 2.76c.88-.32 1.65.2 1.38 1.57Z"/></svg>
+        Telegram
+      </a>
+    </div>
+  </header>
+  <a id="top"></a>
+  <section id="hero" class="hero-live">
+    <div class="hero-live__inner">
+      <div class="hero-live__copy">
+        <span class="hero-live__eyebrow">Консультації та допомога по водійських правах</span>
+        <h1>Вирішимо ваше питання з <span>водійським посвідченням</span></h1>
+        <p>Відновлення, нові права через автошколу, відкриття категорій та допомога при позбавленні. Напишіть у Telegram — розберемо вашу ситуацію.</p>
+        <div class="hero-live__categories" aria-label="Категорії">
+          <span>A</span>
+          <span>A1</span>
+          <span>B</span>
+          <span>B1</span>
+          <span>C</span>
+          <span>C1</span>
+          <span>та інші</span>
+        </div>
+        <div class="hero-live__actions">
+          <a class="hero-live__button hero-live__button--primary" onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener">
+            <svg class="tg-logo" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M21.94 4.33 18.7 19.59c-.24 1.08-.88 1.35-1.78.84l-4.94-3.64-2.38 2.29c-.26.26-.49.49-1 .49l.35-5.03 9.16-8.28c.4-.35-.09-.55-.62-.2L6.16 13.2 1.28 11.67c-1.06-.33-1.08-1.06.22-1.57L20.56 2.76c.88-.32 1.65.2 1.38 1.57Z"/></svg>
+            Написати в Telegram
+          </a>
+          <a class="hero-live__button hero-live__button--ghost" href="#services">Подивитися послуги</a>
+        </div>
+      </div>
+      <div class="hero-live__scene" aria-hidden="true">
+        <svg class="hero-live__route" viewBox="0 0 620 420" fill="none">
+          <path d="M34 330C132 226 239 380 328 242C402 127 493 123 586 72" stroke="#FF9E0C" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 16"/>
+          <circle cx="34" cy="330" r="8" fill="#5937E0"/>
+          <circle cx="586" cy="72" r="8" fill="#FF9E0C"/>
+        </svg>
+        <img class="hero-live__license" src="assets/hero-license.png" alt="">
+        <img class="hero-live__car" src="assets/hero-car.png" alt="">
+        <span class="hero-live__float hero-live__float--top">категорія B</span>
+        <span class="hero-live__float hero-live__float--mid">відновлення</span>
+        <span class="hero-live__float hero-live__float--bottom">A • B • C1</span>
+      </div>
+    </div>
+  </section>
+  <section id="services" style="max-width:1200px;margin:0 auto;padding:80px 24px 40px">
+    <h2 style="margin:0;font:700 40px/1.1 var(--font-display);text-wrap:balance">З якими питаннями допомагаємо</h2>
+    <p style="margin:14px 0 0;max-width:640px;font:400 17px/27px var(--font-display);color:var(--gray-500)">Оберіть напрям — або напишіть напряму в Telegram, і ми підкажемо рішення під вашу ситуацію.</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:22px;margin-top:36px">
+
+      <div style="display:flex;flex-direction:column;gap:14px;padding:28px;background:#fff;border:1px solid var(--border);border-radius:20px;transition:box-shadow 160ms ease,transform 160ms ease">
+        <span style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="M21 11.5a8.4 8.4 0 0 1-8.5 8.5 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.7A8.5 8.5 0 0 1 12.5 3 8.4 8.4 0 0 1 21 11.5z"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Консультація щодо водійських прав</h3>
+        <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--gray-500)">Пояснимо, які варіанти доступні у вашій ситуації: отримання, заміна, відновлення, категорії або питання після позбавлення. Простою мовою та з подальшими кроками.</p>
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font:600 15px var(--font-display);color:var(--brand-purple);text-decoration:none">Отримати консультацію <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="var(--brand-purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:14px;padding:28px;background:#fff;border:1px solid var(--border);border-radius:20px;transition:box-shadow 160ms ease,transform 160ms ease">
+        <span style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="11" r="2"/><path d="M13 9.5h5M13 13h5M5.4 15.6c.6-1.7 4.6-1.7 5.2 0"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Відновлення водійського посвідчення</h3>
+        <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--gray-500)">Допоможемо розібратись, як відновити посвідчення у разі втрати, пошкодження, закінчення строку дії або інших проблем з документами. Підкажемо, що потрібно саме у вашому випадку.</p>
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font:600 15px var(--font-display);color:var(--brand-purple);text-decoration:none">Відновити права <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="var(--brand-purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:14px;padding:28px;background:#fff;border:1px solid var(--border);border-radius:20px;transition:box-shadow 160ms ease,transform 160ms ease">
+        <span style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.4"/><path d="M12 9.6V3.2M9.7 13.1 4.4 16M14.3 13.1 19.6 16"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Оформлення нових прав через автошколу</h3>
+        <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--gray-500)">Супроводжуємо процес оформлення нових прав через автошколу: підбір рішення, консультація по документах, категорії та подальші дії. Спеціаліст перевірить вашу ситуацію та пояснить порядок.</p>
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font:600 15px var(--font-display);color:var(--brand-purple);text-decoration:none">Дізнатись умови <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="var(--brand-purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:14px;padding:28px;background:#fff;border:1px solid var(--border);border-radius:20px;transition:box-shadow 160ms ease,transform 160ms ease">
+        <span style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Відкриття категорій A, A1, B, B1, C, C1 та інших</h3>
+        <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--gray-500)">Допомагаємо з питаннями відкриття та додавання категорій для мотоциклів, легкових авто, вантажного транспорту та інших типів ТЗ. Пояснимо, який варіант підійде саме вам.</p>
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font:600 15px var(--font-display);color:var(--brand-purple);text-decoration:none">Відкрити категорію <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="var(--brand-purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:14px;padding:28px;background:#fff;border:1px solid var(--border);border-radius:20px;transition:box-shadow 160ms ease,transform 160ms ease">
+        <span style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3z"/><path d="M12 8.5v4M12 16h.01"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Допомога при позбавленні водійських прав</h3>
+        <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--gray-500)">Якщо вас позбавили прав або є ризик позбавлення — розберемо ситуацію, пояснимо можливі варіанти дій та допоможемо зрозуміти, що можна зробити далі.</p>
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font:600 15px var(--font-display);color:var(--brand-purple);text-decoration:none">Проконсультуватися <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="var(--brand-purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:14px;padding:28px;background:var(--brand-purple);border-radius:20px" class="ac-track">
+        <span style="display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:14px;background:rgba(255,255,255,.16)"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display);color:#fff">Терміновий розбір ситуації</h3>
+        <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:rgba(255,255,255,.82)">Якщо питання потрібно вирішити швидко — напишіть у Telegram. Опишіть ситуацію, місто, категорію та що саме потрібно.</p>
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font:600 15px var(--font-display);color:#fff;text-decoration:none">Написати зараз <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+  <section id="situations" class="decor-situations" style="background:var(--gray-50);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div style="max-width:1200px;margin:0 auto;padding:80px 24px">
+    <h2 style="margin:0;font:700 40px/1.1 var(--font-display);text-wrap:balance">Оберіть, що вам потрібно</h2>
+      <div style="display:grid;grid-template-columns:1.1fr .9fr;gap:36px;margin-top:36px;align-items:start">
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <button class="scenario-button" data-scenario="0" data-solution="Відновлення посвідчення" data-description="Розберемо, що саме потрібно для відновлення у вашому випадку, та підкажемо порядок дій." style="display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:16px 18px;border-radius:12px;cursor:pointer;transition:all 140ms ease;font-family:var(--font-display);font-size:16px;border:1.5px solid var(--brand-purple);background:var(--brand-purple-50);color:var(--brand-purple);font-weight:600"><span style="width:10px;height:10px;border-radius:50%;flex:none;background:var(--brand-purple)"></span>Я втратив права</button>
+            <button class="scenario-button" data-scenario="1" data-solution="Оформлення через автошколу" data-description="Супроводимо процес оформлення нових прав через автошколу — від документів до категорій." style="display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:16px 18px;border-radius:12px;cursor:pointer;transition:all 140ms ease;font-family:var(--font-display);font-size:16px;border:1.5px solid var(--border);background:#fff;color:var(--black);font-weight:500"><span style="width:10px;height:10px;border-radius:50%;flex:none;background:var(--border)"></span>Потрібні нові права</button>
+            <button class="scenario-button" data-scenario="2" data-solution="A, A1, B, B1, C, C1 та інші" data-description="Пояснимо, який варіант відкриття чи додавання категорії підійде саме вам." style="display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:16px 18px;border-radius:12px;cursor:pointer;transition:all 140ms ease;font-family:var(--font-display);font-size:16px;border:1.5px solid var(--border);background:#fff;color:var(--black);font-weight:500"><span style="width:10px;height:10px;border-radius:50%;flex:none;background:var(--border)"></span>Потрібно відкрити категорію</button>
+            <button class="scenario-button" data-scenario="3" data-solution="Консультація та допомога" data-description="Індивідуально розберемо ситуацію після позбавлення та пояснимо можливі подальші дії." style="display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:16px 18px;border-radius:12px;cursor:pointer;transition:all 140ms ease;font-family:var(--font-display);font-size:16px;border:1.5px solid var(--border);background:#fff;color:var(--black);font-weight:500"><span style="width:10px;height:10px;border-radius:50%;flex:none;background:var(--border)"></span>Мене позбавили прав</button>
+            <button class="scenario-button" data-scenario="4" data-solution="Первинний розбір у Telegram" data-description="Напишіть коротко вашу ситуацію — ми зорієнтуємо та підкажемо перший крок." style="display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:16px 18px;border-radius:12px;cursor:pointer;transition:all 140ms ease;font-family:var(--font-display);font-size:16px;border:1.5px solid var(--border);background:#fff;color:var(--black);font-weight:500"><span style="width:10px;height:10px;border-radius:50%;flex:none;background:var(--border)"></span>Не знаю, з чого почати</button>
+        </div>
+        <div class="ac-track situation-result-card" style="position:sticky;top:90px;background:var(--brand-purple);border-radius:24px;padding:36px;color:#fff">
+          <img class="situation-license" src="assets/hero-license.png" alt="">
+          <span class="situation-chip">B</span>
+          <span style="font:600 13px var(--font-display);color:rgba(255,255,255,.7);text-transform:uppercase;letter-spacing:.04em">Рекомендоване рішення</span>
+          <div data-active-solution style="margin:14px 0 0;font:700 28px/1.15 var(--font-display)">Відновлення посвідчення</div>
+          <p data-active-description style="margin:16px 0 0;font:400 16px/26px var(--font-display);color:rgba(255,255,255,.85)">Розберемо, що саме потрібно для відновлення у вашому випадку, та підкажемо порядок дій.</p>
+          <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;margin-top:26px;padding:15px 26px;background:var(--brand-orange);color:#fff;font:600 16px var(--font-display);border-radius:10px;text-decoration:none;box-shadow:0 8px 22px rgba(255,158,12,.3)" >
+            <svg class="tg-logo" viewBox="0 0 24 24" width="19" height="19" fill="currentColor" aria-hidden="true" style="display:block"><path d="M21.94 4.33 18.7 19.59c-.24 1.08-.88 1.35-1.78.84l-4.94-3.64-2.38 2.29c-.26.26-.49.49-1 .49l.35-5.03 9.16-8.28c.4-.35-.09-.55-.62-.2L6.16 13.2 1.28 11.67c-1.06-.33-1.08-1.06.22-1.57L20.56 2.76c.88-.32 1.65.2 1.38 1.57Z"/></svg>
+            Підібрати рішення в Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="how" class="decor-how" style="max-width:1200px;margin:0 auto;padding:80px 24px">
+    <div class="how-route" aria-hidden="true">
+      <svg viewBox="0 0 980 130" fill="none">
+        <path class="how-route__line" d="M18 94C158 12 274 118 406 58C548 -7 650 112 798 54C870 26 922 36 962 18" />
+      </svg>
+      <span class="how-route__car">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M5 17a2 2 0 1 1-4 0M23 17a2 2 0 1 1-4 0M3 17v-4l2.5-5A2 2 0 0 1 7.3 7h9.4a2 2 0 0 1 1.8 1l2.5 5v4M3 13h18"/></svg>
+      </span>
+    </div>
+    <h2 style="margin:0;font:700 40px/1.1 var(--font-display);text-wrap:balance">Як ми працюємо</h2>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:28px;margin-top:40px">
+      <div class="numbered-item" style="display:flex;flex-direction:column;gap:10px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:999px;background:var(--brand-purple);color:#fff;font:600 14px var(--font-display);flex:none">1</span><span style="font:600 20px var(--font-display);color:var(--black)">Ви пишете в Telegram</span></div>
+        <p style="margin:0;padding-left:40px;font:400 16px/26px var(--font-display);color:var(--gray-500)">Натискаєте кнопку, коротко описуєте ситуацію та вказуєте, яке питання потрібно вирішити.</p>
+      </div>
+      <div class="numbered-item" style="display:flex;flex-direction:column;gap:10px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:999px;background:var(--brand-purple);color:#fff;font:600 14px var(--font-display);flex:none">2</span><span style="font:600 20px var(--font-display);color:var(--black)">Ми уточнюємо деталі</span></div>
+        <p style="margin:0;padding-left:40px;font:400 16px/26px var(--font-display);color:var(--gray-500)">Кілька питань: місто, категорія, поточний статус прав, чи було позбавлення, чи потрібне відновлення або нове оформлення.</p>
+      </div>
+      <div class="numbered-item" style="display:flex;flex-direction:column;gap:10px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:999px;background:var(--brand-purple);color:#fff;font:600 14px var(--font-display);flex:none">3</span><span style="font:600 20px var(--font-display);color:var(--black)">Підбираємо варіант рішення</span></div>
+        <p style="margin:0;padding-left:40px;font:400 16px/26px var(--font-display);color:var(--gray-500)">Пояснюємо, який шлях підходить саме вам: консультація, відновлення, оформлення, відкриття категорії або допомога.</p>
+      </div>
+      <div class="numbered-item" style="display:flex;flex-direction:column;gap:10px">
+        <div style="display:flex;align-items:center;gap:12px"><span style="display:flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:999px;background:var(--brand-purple);color:#fff;font:600 14px var(--font-display);flex:none">4</span><span style="font:600 20px var(--font-display);color:var(--black)">Супроводжуємо до результату</span></div>
+        <p style="margin:0;padding-left:40px;font:400 16px/26px var(--font-display);color:var(--gray-500)">Ви отримуєте зрозумілий план дій та супровід на кожному етапі.</p>
+      </div>
+    </div>
+    <div style="margin-top:40px">
+      <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;padding:15px 28px;background:var(--brand-purple);color:#fff;font:600 16px var(--font-display);border-radius:10px;text-decoration:none">Почати з консультації</a>
+    </div>
+  </section>
+  <section id="categories" style="background:var(--gray-50);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div style="max-width:1200px;margin:0 auto;padding:80px 24px">
+      <h2 style="margin:0;font:700 40px/1.1 var(--font-display);text-wrap:balance">Працюємо з усіма основними категоріями</h2>
+      <p style="margin:14px 0 0;max-width:620px;font:400 17px/27px var(--font-display);color:var(--gray-500)">Допомагаємо з питаннями відкриття, додавання та оформлення категорій водійського посвідчення.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px;margin-top:36px">
+        <div style="display:flex;flex-direction:column;gap:16px;padding:24px;background:#fff;border:1px solid var(--border);border-radius:18px"><div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 34px var(--font-display);color:var(--brand-purple)">A</span><svg viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="30" height="30"><circle cx="5.5" cy="16.5" r="3.2"/><circle cx="18.5" cy="16.5" r="3.2"/><path d="M5.5 16.5h7l3.5-5.5M11 11h5M14 8h3.2l1 3"/></svg></div><span style="font:600 16px var(--font-display)">Мотоцикли</span></div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:24px;background:#fff;border:1px solid var(--border);border-radius:18px"><div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 34px var(--font-display);color:var(--brand-purple)">A1</span><svg viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="30" height="30"><circle cx="5.5" cy="16.5" r="3.2"/><circle cx="18.5" cy="16.5" r="3.2"/><path d="M5.5 16.5h7l3.5-5.5M11 11h5M14 8h3.2l1 3"/></svg></div><span style="font:600 16px var(--font-display)">Легкі мотоцикли та скутери</span></div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:24px;background:#fff;border:1px solid var(--border);border-radius:18px"><div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 34px var(--font-display);color:var(--brand-purple)">B</span><svg viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="30" height="30"><path d="M5 17h14M5 17a2 2 0 1 1-4 0M23 17a2 2 0 1 1-4 0M3 17v-4l2.5-5A2 2 0 0 1 7.3 7h9.4a2 2 0 0 1 1.8 1l2.5 5v4M3 13h18"/></svg></div><span style="font:600 16px var(--font-display)">Легкові автомобілі</span></div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:24px;background:#fff;border:1px solid var(--border);border-radius:18px"><div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 34px var(--font-display);color:var(--brand-purple)">B1</span><svg viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="30" height="30"><path d="M5 17h14M5 17a2 2 0 1 1-4 0M23 17a2 2 0 1 1-4 0M3 17v-4l2.5-5A2 2 0 0 1 7.3 7h9.4a2 2 0 0 1 1.8 1l2.5 5v4M3 13h18"/></svg></div><span style="font:600 16px var(--font-display)">Квадроцикли та трицикли</span></div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:24px;background:#fff;border:1px solid var(--border);border-radius:18px"><div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 34px var(--font-display);color:var(--brand-purple)">C</span><svg viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="30" height="30"><path d="M2 7h12v9H2zM14 10h3.5l3 3v3H14z"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17.5" cy="17.5" r="1.7"/></svg></div><span style="font:600 16px var(--font-display)">Вантажні автомобілі</span></div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:24px;background:#fff;border:1px solid var(--border);border-radius:18px"><div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 34px var(--font-display);color:var(--brand-purple)">C1</span><svg viewBox="0 0 24 24" fill="none" stroke="var(--gray-400)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="30" height="30"><path d="M2 7h12v9H2zM14 10h3.5l3 3v3H14z"/><circle cx="6.5" cy="17.5" r="1.7"/><circle cx="17.5" cy="17.5" r="1.7"/></svg></div><span style="font:600 16px var(--font-display)">Легкі вантажні авто</span></div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:24px;background:var(--brand-purple);border-radius:18px" class="ac-track"><div style="display:flex;align-items:center;justify-content:space-between"><span style="font:700 30px var(--font-display);color:#fff">Інші</span><svg viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" width="30" height="30"><path d="M12 5v14M5 12h14"/></svg></div><span style="font:600 16px var(--font-display);color:#fff">Інші категорії — за запитом</span></div>
+      </div>
+      <div style="margin-top:36px">
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;padding:15px 28px;background:var(--brand-orange);color:#fff;font:600 16px var(--font-display);border-radius:10px;text-decoration:none;box-shadow:0 8px 22px rgba(255,158,12,.28)" >Запитати по категорії</a>
+      </div>
+    </div>
+  </section>
+  <section id="why" style="max-width:1200px;margin:0 auto;padding:80px 24px">
+    <h2 style="margin:0;font:700 40px/1.1 var(--font-display);text-wrap:balance">Чому клієнти звертаються саме до нас</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:32px;margin-top:40px">
+      <div class="feature-card" style="display:flex;flex-direction:column;gap:14px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+        <span style="display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><path d="m21 21-4.35-4.35"/><circle cx="11" cy="11" r="7"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Індивідуальний розбір ситуації</h3>
+        <p style="margin:0;font:400 15px/24px var(--font-display);color:var(--gray-500)">Немає універсального рішення для всіх. Ми уточнюємо деталі та пропонуємо варіант під конкретний випадок.</p>
+      </div>
+      <div class="feature-card" style="display:flex;flex-direction:column;gap:14px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+        <span style="display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Пояснюємо простими словами</h3>
+        <p style="margin:0;font:400 15px/24px var(--font-display);color:var(--gray-500)">Без складної бюрократії та незрозумілих формулювань. Ви розумієте, що робити далі.</p>
+      </div>
+      <div class="feature-card" style="display:flex;flex-direction:column;gap:14px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+        <span style="display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.95.35 1.87.67 2.75a2 2 0 0 1-.45 2.11L8.05 9.86a16 16 0 0 0 6.09 6.09l1.28-1.28a2 2 0 0 1 2.11-.45c.88.32 1.8.54 2.75.67A2 2 0 0 1 22 16.92z"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Швидкий зв’язок у Telegram</h3>
+        <p style="margin:0;font:400 15px/24px var(--font-display);color:var(--gray-500)">Не потрібно чекати дзвінка або заповнювати довгі форми. Написали — отримали відповідь.</p>
+      </div>
+      <div class="feature-card" style="display:flex;flex-direction:column;gap:14px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+        <span style="display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><path d="M5 17h14M5 17a2 2 0 1 1-4 0M23 17a2 2 0 1 1-4 0M3 17v-4l2.5-5A2 2 0 0 1 7.3 7h9.4a2 2 0 0 1 1.8 1l2.5 5v4M3 13h18"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Працюємо з різними питаннями</h3>
+        <p style="margin:0;font:400 15px/24px var(--font-display);color:var(--gray-500)">Консультація, відновлення, нові права, категорії, ситуації після позбавлення.</p>
+      </div>
+      <div class="feature-card" style="display:flex;flex-direction:column;gap:14px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+        <span style="display:flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:14px;background:var(--brand-purple-50)"><svg viewBox="0 0 24 24" fill="none" stroke="var(--brand-purple)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="26" height="26"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+        <h3 style="margin:0;font:600 21px var(--font-display)">Супровід до результату</h3>
+        <p style="margin:0;font:400 15px/24px var(--font-display);color:var(--gray-500)">Ми не просто відповідаємо на питання, а допомагаємо пройти процес зрозуміло та спокійно.</p>
+      </div>
+    </div>
+    <div style="margin-top:36px">
+      <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;padding:15px 28px;background:var(--brand-purple);color:#fff;font:600 16px var(--font-display);border-radius:10px;text-decoration:none">Отримати консультацію</a>
+    </div>
+  </section>
+  <section class="contact-visual-section" style="background:var(--gray-50);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+    <div style="max-width:1200px;margin:0 auto;padding:80px 24px;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start">
+      <div>
+        <h2 style="margin:0;font:700 34px/1.12 var(--font-display)">Кому ми можемо допомогти</h2>
+        <div style="display:flex;flex-direction:column;gap:14px;margin-top:26px">
+          <div style="display:flex;align-items:flex-start;gap:12px"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--brand-purple)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6 9 17l-5-5"/></svg><span style="font:500 16px/24px var(--font-display)">Ви втратили водійське посвідчення</span></div>
+          <div style="display:flex;align-items:flex-start;gap:12px"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--brand-purple)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6 9 17l-5-5"/></svg><span style="font:500 16px/24px var(--font-display)">Потрібно відновити права</span></div>
+          <div style="display:flex;align-items:flex-start;gap:12px"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--brand-purple)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6 9 17l-5-5"/></svg><span style="font:500 16px/24px var(--font-display)">Хочете отримати нові права через автошколу</span></div>
+          <div style="display:flex;align-items:flex-start;gap:12px"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--brand-purple)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6 9 17l-5-5"/></svg><span style="font:500 16px/24px var(--font-display)">Потрібно відкрити категорію A, B, C або іншу</span></div>
+          <div style="display:flex;align-items:flex-start;gap:12px"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--brand-purple)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6 9 17l-5-5"/></svg><span style="font:500 16px/24px var(--font-display)">Є проблема після позбавлення прав</span></div>
+          <div style="display:flex;align-items:flex-start;gap:12px"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--brand-purple)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6 9 17l-5-5"/></svg><span style="font:500 16px/24px var(--font-display)">Не розумієте, з чого почати</span></div>
+          <div style="display:flex;align-items:flex-start;gap:12px"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--brand-purple)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;margin-top:2px"><path d="M20 6 9 17l-5-5"/></svg><span style="font:500 16px/24px var(--font-display)">Потрібна швидка консультація без зайвої бюрократії</span></div>
+        </div>
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;margin-top:28px;padding:15px 28px;background:var(--brand-purple);color:#fff;font:600 16px var(--font-display);border-radius:10px;text-decoration:none">Написати спеціалісту</a>
+      </div>
+
+      <div class="telegram-card" style="background:#fff;border:1px solid var(--border);border-radius:24px;padding:36px;box-shadow:var(--shadow-card)">
+        <div class="telegram-phone" aria-hidden="true">
+          <div class="telegram-phone__screen">
+            <span class="telegram-phone__dot"></span>
+            <div class="telegram-bubble telegram-bubble--left">Втратив права</div>
+            <div class="telegram-bubble telegram-bubble--right">Підкажіть варіанти</div>
+            <div class="telegram-bubble telegram-bubble--left">Категорія B</div>
+          </div>
+        </div>
+        <h2 style="margin:0;font:700 28px/1.15 var(--font-display)">Що написати нам у Telegram</h2>
+        <p style="margin:14px 0 0;font:400 16px/26px var(--font-display);color:var(--gray-500)">Щоб ми швидко розібрали вашу ситуацію, вкажіть у повідомленні:</p>
+        <div style="display:flex;flex-direction:column;gap:10px;margin-top:18px">
+          <div style="display:flex;align-items:flex-start;gap:10px;font:500 15px/22px var(--font-display)"><span style="color:var(--brand-orange);font-weight:700">→</span>Що потрібно: консультація, відновлення, нові права, категорія або допомога при позбавленні</div>
+          <div style="display:flex;align-items:flex-start;gap:10px;font:500 15px/22px var(--font-display)"><span style="color:var(--brand-orange);font-weight:700">→</span>Ваше місто або область</div>
+          <div style="display:flex;align-items:flex-start;gap:10px;font:500 15px/22px var(--font-display)"><span style="color:var(--brand-orange);font-weight:700">→</span>Яка категорія потрібна</div>
+          <div style="display:flex;align-items:flex-start;gap:10px;font:500 15px/22px var(--font-display)"><span style="color:var(--brand-orange);font-weight:700">→</span>Чи є у вас вже посвідчення водія</div>
+          <div style="display:flex;align-items:flex-start;gap:10px;font:500 15px/22px var(--font-display)"><span style="color:var(--brand-orange);font-weight:700">→</span>Коротко опишіть проблему</div>
+        </div>
+        <div class="message-example" style="margin-top:22px;padding:20px 22px;background:var(--brand-purple-50);border-radius:18px;box-shadow:inset 4px 0 0 var(--brand-purple)">
+          <span style="font:600 12px var(--font-display);color:var(--brand-purple);text-transform:uppercase;letter-spacing:.04em">Приклад повідомлення</span>
+          <p style="margin:8px 0 0;font:400 15px/23px var(--font-display);color:var(--ink-900)">«Добрий день. Потрібно відновити права / відкрити категорію B / отримати консультацію після позбавлення. Місто: Київ. Підкажіть, які є варіанти.»</p>
+        </div>
+        <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:22px;padding:15px 28px;background:var(--brand-orange);color:#fff;font:600 16px var(--font-display);border-radius:10px;text-decoration:none;box-shadow:0 8px 22px rgba(255,158,12,.28)" >
+          <svg class="tg-logo" viewBox="0 0 24 24" width="19" height="19" fill="currentColor" aria-hidden="true" style="display:block"><path d="M21.94 4.33 18.7 19.59c-.24 1.08-.88 1.35-1.78.84l-4.94-3.64-2.38 2.29c-.26.26-.49.49-1 .49l.35-5.03 9.16-8.28c.4-.35-.09-.55-.62-.2L6.16 13.2 1.28 11.67c-1.06-.33-1.08-1.06.22-1.57L20.56 2.76c.88-.32 1.65.2 1.38 1.57Z"/></svg>
+          Відкрити Telegram
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="reviews" style="max-width:1200px;margin:0 auto;padding:80px 24px">
+    <h2 style="margin:0;font:700 40px/1.1 var(--font-display)">Відгуки клієнтів</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:22px;margin-top:36px">
+      <div style="display:flex;flex-direction:column;gap:16px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+          <div style="display:flex;gap:3px"><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg></div>
+          <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--ink-900)">Потрібна була консультація по відновленню прав. У Telegram швидко відповіли, пояснили, які документи потрібні та що робити далі.</p>
+          <div style="display:flex;align-items:center;gap:12px;padding-top:14px;border-top:1px solid var(--border)">
+            <img src="assets/review-0.webp" alt="Андрій" width="44" height="44" style="display:block;width:44px;height:44px;flex:none;border-radius:50%;object-fit:cover">
+            <div style="display:flex;flex-direction:column">
+              <span style="font:600 15px var(--font-display)">Андрій</span>
+              <span style="font:400 13px var(--font-display);color:var(--gray-500)">Київ</span>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+          <div style="display:flex;gap:3px"><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg></div>
+          <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--ink-900)">Хотів відкрити категорію C. Допомогли розібратись з варіантами та пояснили весь порядок оформлення.</p>
+          <div style="display:flex;align-items:center;gap:12px;padding-top:14px;border-top:1px solid var(--border)">
+            <img src="assets/review-1.webp" alt="Олександр" width="44" height="44" style="display:block;width:44px;height:44px;flex:none;border-radius:50%;object-fit:cover">
+            <div style="display:flex;flex-direction:column">
+              <span style="font:600 15px var(--font-display)">Олександр</span>
+              <span style="font:400 13px var(--font-display);color:var(--gray-500)">Дніпро</span>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+          <div style="display:flex;gap:3px"><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg></div>
+          <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--ink-900)">Була складна ситуація після позбавлення прав. Отримала зрозумілу консультацію і план дій без зайвих питань.</p>
+          <div style="display:flex;align-items:center;gap:12px;padding-top:14px;border-top:1px solid var(--border)">
+            <img src="assets/review-2.webp" alt="Ірина" width="44" height="44" style="display:block;width:44px;height:44px;flex:none;border-radius:50%;object-fit:cover">
+            <div style="display:flex;flex-direction:column">
+              <span style="font:600 15px var(--font-display)">Ірина</span>
+              <span style="font:400 13px var(--font-display);color:var(--gray-500)">Львів</span>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px;padding:26px;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shadow-card)">
+          <div style="display:flex;gap:3px"><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg><svg viewBox="0 0 24 24" width="17" height="17" fill="var(--brand-orange)"><path d="m12 2 3 6.5 7 .9-5.2 4.7 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.4l7-.9z"/></svg></div>
+          <p style="margin:0;flex:1;font:400 15px/24px var(--font-display);color:var(--ink-900)">Потрібні були нові права через автошколу. Все пояснили простими словами, швидко зорієнтували по умовах.</p>
+          <div style="display:flex;align-items:center;gap:12px;padding-top:14px;border-top:1px solid var(--border)">
+            <img src="assets/review-3.webp" alt="Максим" width="44" height="44" style="display:block;width:44px;height:44px;flex:none;border-radius:50%;object-fit:cover">
+            <div style="display:flex;flex-direction:column">
+              <span style="font:600 15px var(--font-display)">Максим</span>
+              <span style="font:400 13px var(--font-display);color:var(--gray-500)">Одеса</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section id="faq" style="background:var(--gray-50);border-top:1px solid var(--border)">
+    <div style="max-width:820px;margin:0 auto;padding:80px 24px">
+      <h2 style="margin:0;font:700 40px/1.1 var(--font-display);text-align:center">Поширені питання</h2>
+      <div style="display:flex;flex-direction:column;gap:14px;margin-top:40px">
+        <div class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px 26px">
+            <button type="button" class="faq-button" style="display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:0">
+              <span style="font:600 18px/1.35 var(--font-display);color:var(--black)">Ви працюєте по всій Україні?</span>
+              <span class="faq-sign" style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;flex:none;border-radius:8px;background:var(--brand-purple-50);color:var(--brand-purple);font:600 20px var(--font-display)">−</span>
+            </button>
+            <div class="faq-body" style="overflow:hidden;transition:max-height 240ms ease,opacity 200ms ease,margin 240ms ease;max-height:320px;opacity:1;margin-top:14px">
+              <p style="margin:0;font:400 16px/26px var(--font-display);color:var(--gray-500)">Так, ми консультуємо клієнтів з різних міст України. Деталі залежать від вашої ситуації, тому краще написати нам у Telegram.</p>
+            </div>
+          </div>
+          <div class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px 26px">
+            <button type="button" class="faq-button" style="display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:0">
+              <span style="font:600 18px/1.35 var(--font-display);color:var(--black)">Можна відновити втрачені права?</span>
+              <span class="faq-sign" style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;flex:none;border-radius:8px;background:var(--brand-purple-50);color:var(--brand-purple);font:600 20px var(--font-display)">+</span>
+            </button>
+            <div class="faq-body" style="overflow:hidden;transition:max-height 240ms ease,opacity 200ms ease,margin 240ms ease;max-height:0;opacity:0;margin-top:0">
+              <p style="margin:0;font:400 16px/26px var(--font-display);color:var(--gray-500)">Так, ми допомагаємо розібратись з відновленням посвідчення водія та підказуємо, які дії потрібні у вашому випадку.</p>
+            </div>
+          </div>
+          <div class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px 26px">
+            <button type="button" class="faq-button" style="display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:0">
+              <span style="font:600 18px/1.35 var(--font-display);color:var(--black)">Ви допомагаєте з відкриттям категорій?</span>
+              <span class="faq-sign" style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;flex:none;border-radius:8px;background:var(--brand-purple-50);color:var(--brand-purple);font:600 20px var(--font-display)">+</span>
+            </button>
+            <div class="faq-body" style="overflow:hidden;transition:max-height 240ms ease,opacity 200ms ease,margin 240ms ease;max-height:0;opacity:0;margin-top:0">
+              <p style="margin:0;font:400 16px/26px var(--font-display);color:var(--gray-500)">Так, працюємо з категоріями A, A1, B, B1, C, C1 та іншими. Напишіть, яка категорія потрібна, і ми підкажемо варіанти.</p>
+            </div>
+          </div>
+          <div class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px 26px">
+            <button type="button" class="faq-button" style="display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:0">
+              <span style="font:600 18px/1.35 var(--font-display);color:var(--black)">Можна отримати консультацію при позбавленні прав?</span>
+              <span class="faq-sign" style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;flex:none;border-radius:8px;background:var(--brand-purple-50);color:var(--brand-purple);font:600 20px var(--font-display)">+</span>
+            </button>
+            <div class="faq-body" style="overflow:hidden;transition:max-height 240ms ease,opacity 200ms ease,margin 240ms ease;max-height:0;opacity:0;margin-top:0">
+              <p style="margin:0;font:400 16px/26px var(--font-display);color:var(--gray-500)">Так, ми розбираємо такі ситуації індивідуально та пояснюємо можливі подальші дії.</p>
+            </div>
+          </div>
+          <div class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px 26px">
+            <button type="button" class="faq-button" style="display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:0">
+              <span style="font:600 18px/1.35 var(--font-display);color:var(--black)">Як швидко можна отримати відповідь?</span>
+              <span class="faq-sign" style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;flex:none;border-radius:8px;background:var(--brand-purple-50);color:var(--brand-purple);font:600 20px var(--font-display)">+</span>
+            </button>
+            <div class="faq-body" style="overflow:hidden;transition:max-height 240ms ease,opacity 200ms ease,margin 240ms ease;max-height:0;opacity:0;margin-top:0">
+              <p style="margin:0;font:400 16px/26px var(--font-display);color:var(--gray-500)">Зазвичай консультація починається після звернення в Telegram. Напишіть коротко вашу ситуацію, щоб спеціаліст швидше зорієнтувався.</p>
+            </div>
+          </div>
+          <div class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px 26px">
+            <button type="button" class="faq-button" style="display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:0">
+              <span style="font:600 18px/1.35 var(--font-display);color:var(--black)">Скільки коштує послуга?</span>
+              <span class="faq-sign" style="display:flex;align-items:center;justify-content:center;width:30px;height:30px;flex:none;border-radius:8px;background:var(--brand-purple-50);color:var(--brand-purple);font:600 20px var(--font-display)">+</span>
+            </button>
+            <div class="faq-body" style="overflow:hidden;transition:max-height 240ms ease,opacity 200ms ease,margin 240ms ease;max-height:0;opacity:0;margin-top:0">
+              <p style="margin:0;font:400 16px/26px var(--font-display);color:var(--gray-500)">Вартість залежить від ситуації: консультація, відновлення, нове оформлення, категорія або допомога при позбавленні. Напишіть у Telegram — вам підкажуть умови.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="final-cta-section" style="max-width:1200px;margin:0 auto;padding:80px 24px">
+    <div class="ac-track final-cta-card" style="background:var(--brand-purple);border-radius:40px;padding:64px 48px;text-align:center">
+      <img class="final-cta-license" src="assets/hero-license.png" alt="">
+      <span class="final-cta-chip">A • B • C1</span>
+      <h2 style="margin:0 auto;max-width:760px;font:700 46px/1.08 var(--font-display);color:#fff;text-wrap:balance;letter-spacing:-.01em">Потрібно вирішити питання з правами?</h2>
+      <p style="margin:20px auto 0;max-width:600px;font:400 18px/28px var(--font-display);color:rgba(255,255,255,.85)">Напишіть у Telegram — розберемо вашу ситуацію, підкажемо можливі варіанти та пояснимо подальші кроки.</p>
+      <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;margin-top:32px;padding:17px 34px;background:var(--brand-orange);color:#fff;font:600 18px var(--font-display);border-radius:12px;text-decoration:none;box-shadow:0 12px 30px rgba(255,158,12,.34)">
+        <svg class="tg-logo" viewBox="0 0 24 24" width="21" height="21" fill="currentColor" aria-hidden="true" style="display:block"><path d="M21.94 4.33 18.7 19.59c-.24 1.08-.88 1.35-1.78.84l-4.94-3.64-2.38 2.29c-.26.26-.49.49-1 .49l.35-5.03 9.16-8.28c.4-.35-.09-.55-.62-.2L6.16 13.2 1.28 11.67c-1.06-.33-1.08-1.06.22-1.57L20.56 2.76c.88-.32 1.65.2 1.38 1.57Z"/></svg>
+        Написати в Telegram
+      </a>
+      <p style="margin:26px 0 0;font:500 14px var(--font-display);color:rgba(255,255,255,.7)">Консультація • Відновлення • Нові права • Категорії • Допомога при позбавленні</p>
+    </div>
+  </section>
+  <footer style="border-top:1px solid var(--border)">
+    <div style="max-width:1200px;margin:0 auto;padding:40px 24px;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between">
+      <div style="display:inline-flex;align-items:center;gap:10px">
+        <span style="display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:9px;background:var(--brand-purple)"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M5 17h14M5 17a2 2 0 1 1-4 0M23 17a2 2 0 1 1-4 0M3 17v-4l2.5-5A2 2 0 0 1 7.3 7h9.4a2 2 0 0 1 1.8 1l2.5 5v4M3 13h18"/></svg></span>
+        <span style="font:700 18px var(--font-display)">AutoConsulting</span>
+      </div>
+      <span style="font:400 14px var(--font-display);color:var(--gray-500)">Консультації та допомога по водійських правах в Україні</span>
+      <a onclick="fbq('track', 'Lead')" href="https://t.me/serhiytsc" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;font:600 15px var(--font-display);color:var(--brand-purple);text-decoration:none">
+        <svg class="tg-logo" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" style="display:block"><path d="M21.94 4.33 18.7 19.59c-.24 1.08-.88 1.35-1.78.84l-4.94-3.64-2.38 2.29c-.26.26-.49.49-1 .49l.35-5.03 9.16-8.28c.4-.35-.09-.55-.62-.2L6.16 13.2 1.28 11.67c-1.06-.33-1.08-1.06.22-1.57L20.56 2.76c.88-.32 1.65.2 1.38 1.57Z"/></svg>
+        Telegram
+      </a>
+    </div>
+  </footer>
+</div>
+<script>
+  (() => {
+    const scenarioButtons = document.querySelectorAll('.scenario-button');
+    const solution = document.querySelector('[data-active-solution]');
+    const description = document.querySelector('[data-active-description]');
+    scenarioButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        scenarioButtons.forEach((item) => {
+          const dot = item.querySelector('span');
+          item.style.border = '1.5px solid var(--border)';
+          item.style.background = '#fff';
+          item.style.color = 'var(--black)';
+          item.style.fontWeight = '500';
+          if (dot) dot.style.background = 'var(--border)';
+        });
+        const dot = button.querySelector('span');
+        button.style.border = '1.5px solid var(--brand-purple)';
+        button.style.background = 'var(--brand-purple-50)';
+        button.style.color = 'var(--brand-purple)';
+        button.style.fontWeight = '600';
+        if (dot) dot.style.background = 'var(--brand-purple)';
+        if (solution) solution.textContent = button.dataset.solution || '';
+        if (description) description.textContent = button.dataset.description || '';
+      });
+    });
+
+    document.querySelectorAll('.faq-button').forEach((button) => {
+      button.addEventListener('click', () => {
+        const item = button.closest('.faq-item');
+        const body = item.querySelector('.faq-body');
+        const sign = item.querySelector('.faq-sign');
+        const isOpen = body.style.maxHeight !== '0px' && body.style.maxHeight !== '0';
+        document.querySelectorAll('.faq-body').forEach((el) => {
+          el.style.maxHeight = '0';
+          el.style.opacity = '0';
+          el.style.marginTop = '0';
+        });
+        document.querySelectorAll('.faq-sign').forEach((el) => { el.textContent = '+'; });
+        if (!isOpen) {
+          body.style.maxHeight = '320px';
+          body.style.opacity = '1';
+          body.style.marginTop = '14px';
+          sign.textContent = '−';
+        }
+      });
+    });
+
+    const mobile = window.matchMedia('(max-width: 899px)');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let timer = 0;
+    let pausedUntil = 0;
+    const startReviewsAutoScroll = () => {
+      clearInterval(timer);
+      if (!mobile.matches || reduceMotion.matches) return;
+      const track = document.querySelector('#reviews > div');
+      if (!track || track.scrollWidth <= track.clientWidth + 4) {
+        timer = setTimeout(startReviewsAutoScroll, 250);
+        return;
+      }
+      const pause = () => { pausedUntil = performance.now() + 2400; };
+      track.addEventListener('pointerdown', pause, { passive: true });
+      track.addEventListener('touchstart', pause, { passive: true });
+      track.addEventListener('wheel', pause, { passive: true });
+      timer = setInterval(() => {
+        if (performance.now() < pausedUntil) return;
+        const max = track.scrollWidth - track.clientWidth;
+        const next = track.scrollLeft >= max - 6 ? 0 : Math.min(max, track.scrollLeft + track.clientWidth * 0.84);
+        track.scrollTo({ left: next, behavior: 'smooth' });
+      }, 3600);
+    };
+    window.addEventListener('load', startReviewsAutoScroll);
+    if (mobile.addEventListener) mobile.addEventListener('change', startReviewsAutoScroll);
+
+    const heroScene = document.querySelector('.hero-live__scene');
+    const heroLicense = document.querySelector('.hero-live__license');
+    const heroRoute = document.querySelector('.hero-live__route');
+    const updateHeroMotion = () => {
+      if (!heroScene || reduceMotion.matches || mobile.matches) return;
+      const rect = heroScene.getBoundingClientRect();
+      const progress = Math.max(-1, Math.min(1, (window.innerHeight * .45 - rect.top) / window.innerHeight));
+      if (heroLicense) heroLicense.style.setProperty('--hero-parallax', `${progress * 18}px`);
+      if (heroRoute) heroRoute.style.setProperty('--hero-route-shift', `${progress * -12}px`);
+    };
+    window.addEventListener('scroll', updateHeroMotion, { passive: true });
+    window.addEventListener('load', updateHeroMotion);
+  })();
+</script>
+</body>
+</html>
